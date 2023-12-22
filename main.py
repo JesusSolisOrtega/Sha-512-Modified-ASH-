@@ -370,7 +370,7 @@ def test_comparacion_hashes(funcion_original, funcion_modificada, length=32, num
 
 
 if __name__ == "__main__":
-    run_execution_time_test('docs/sampleData.txt')
+    #run_execution_time_test('docs/sampleData.txt')
     compare_hash_functions('docs/sampleData.txt')
 
     resultados_comparacion = test_comparacion_hashes(original_sha512, modified_sha512, length=32, seed=425)

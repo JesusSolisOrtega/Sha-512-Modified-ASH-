@@ -370,8 +370,8 @@ def test_comparacion_hashes(funcion_original, funcion_modificada, length=32, num
 
 
 if __name__ == "__main__":
-    #run_execution_time_test('docs/sampleData1.txt')
-    compare_hash_functions('docs/sampleData2.txt')
+    run_execution_time_test('docs/sampleData.txt')
+    compare_hash_functions('docs/sampleData.txt')
 
     resultados_comparacion = test_comparacion_hashes(original_sha512, modified_sha512, length=32, seed=425)
     print("Media de chi-cuadrado (Original):", resultados_comparacion['media_chi2_original'])
